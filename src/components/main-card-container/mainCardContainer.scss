@@ -24,9 +24,11 @@
       text-decoration: none;
       color: $text-color;
       margin: 0 1rem;
-      text-shadow: none;
+      box-shadow: 1px 1px 15px black;
       &:hover {
         background-color: $third-color;
+      box-shadow: 1px 1px 15px grey;
+
       }
       .icon {
         font-size: 1.55rem;

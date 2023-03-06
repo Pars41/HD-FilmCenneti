@@ -9,12 +9,17 @@
     text-align: center;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    
+    p{
+        span{
+            color: $light-color
+        }
+    }
     ul{
         padding: 1rem;
         li{
             list-style-type: none;
             display: inline-block;
+            margin: 0 .3rem;
             a{
             text-decoration: none;
                 color: $text-color;

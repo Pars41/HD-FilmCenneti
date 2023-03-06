@@ -18,10 +18,8 @@ const MainCardContainer = () => {
       const { data } = await axios(BASE_URL);
       setMovies(data.results);
     } catch (error) {
-      console.log(error);
     }
   };
-  console.log(movies, "movies");
 
   useEffect(() => {
     getMovie();
