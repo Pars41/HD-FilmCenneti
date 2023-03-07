@@ -6,10 +6,11 @@ import { useEffect, useState } from "react";
 import Card from "../card/Card";
 import SmallCard from "../small-card/SmallCard";
 import FilmRobotu from "../film-robotu/FilmRobotu";
+import BigCard from "../big-card/BigCard";
 
 const MainCardContainer = () => {
   const API_KEY = "0a06593e3ed888b80a4b7c4da86b6bb9";
-  const BASE_URL = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`;
+  const BASE_URL = `https://api.themoviedb.org/3/trending/tv/week?api_key=${API_KEY}`;
   // const url = `${process.env.API_URL}=${process.env.API_KEY}`
   const [movies, setMovies] = useState([]);
   const getMovie = async () => {
@@ -101,6 +102,12 @@ const MainCardContainer = () => {
       <div className="main-content">
         <div className="main-content_left">
           <h4>Yeni Filmler</h4>
+          {movies.map((item,i)=>{
+            return(
+
+              <BigCard key={i} item={item}/>
+            )
+          })}
           
         </div>
         <div className="main-content_right">
