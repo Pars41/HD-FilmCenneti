@@ -1,8 +1,9 @@
 .card-main {
     position: relative !important;
+    text-align: center;
 
   .card {
-
+    border-radius: .5rem !important;
     &::after{
         content: "";
         position: absolute;
@@ -11,10 +12,12 @@
         height: 100%;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 100%);
         opacity: 1;
-     }
-    // img {
+    border-radius: .5rem !important;
 
-    // }
+     }
+    img {
+        border-radius: .5rem  !important;
+          }
     p.average {
       position: absolute;
       right: 3px;

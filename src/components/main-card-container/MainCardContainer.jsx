@@ -7,10 +7,14 @@ import Card from "../card/Card";
 import SmallCard from "../small-card/SmallCard";
 import FilmRobotu from "../film-robotu/FilmRobotu";
 import BigCard from "../big-card/BigCard";
+import FilmTurleri from "../film-türleri/FilmTurleri";
+import Filtreler from "../filtreler/Filtreler";
+import Yillar from "../yıllar/Yillar";
+import SonYorumlar from "../son-yorumlar/SonYorumlar";
 
 const MainCardContainer = () => {
   const API_KEY = "0a06593e3ed888b80a4b7c4da86b6bb9";
-  const BASE_URL = `https://api.themoviedb.org/3/trending/tv/week?api_key=${API_KEY}`;
+  const BASE_URL = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`;
   // const url = `${process.env.API_URL}=${process.env.API_KEY}`
   const [movies, setMovies] = useState([]);
   const getMovie = async () => {
@@ -70,7 +74,6 @@ const MainCardContainer = () => {
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <div className="row">
-                      {console.log(movies.length)}
                       {movies.slice(0, 6).map((item, i) => {
                         return <Card key={i} item={item} />;
                       })}
@@ -78,7 +81,6 @@ const MainCardContainer = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row">
-                      {console.log(movies.length)}
                       {movies.slice(6, 12).map((item, i) => {
                         return <Card key={i} item={item} />;
                       })}
@@ -86,7 +88,6 @@ const MainCardContainer = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row">
-                      {console.log(movies.length)}
                       {movies.slice(12, 18).map((item, i) => {
                         return <Card key={i} item={item} />;
                       })}
@@ -102,7 +103,7 @@ const MainCardContainer = () => {
       <div className="main-content">
         <div className="main-content_left">
           <h4>Yeni Filmler</h4>
-          {movies.map((item,i)=>{
+          {movies.slice(0,18).map((item,i)=>{
             return(
 
               <BigCard key={i} item={item}/>
@@ -122,6 +123,10 @@ const MainCardContainer = () => {
 
           })}
           <FilmRobotu/>
+          <FilmTurleri/>
+          <Filtreler/>
+          <Yillar/>
+          <SonYorumlar/>
          
           
           

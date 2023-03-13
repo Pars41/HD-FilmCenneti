@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+.comment{
+    margin: 1rem 0;
+    padding: .3rem;
+    border: 1px solid $primary-color;
+    border-radius: .6rem;
+    h6{
+        color:$secondary-color ;
+        
+    }
+    span{
+        color: $primary-color;
+        span{
+            color: $text-color;
+            background-color: $fourth-color;  
+            border-radius: .3rem;  
+            font-size: .8rem ;
+            padding: 0 .2rem      ;
+        }
+    }
+}

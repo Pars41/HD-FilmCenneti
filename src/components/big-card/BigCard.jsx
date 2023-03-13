@@ -16,7 +16,7 @@ const BigCard = ({ item }) => {
       <div className=" card text-bg-dark">
         <img src={getposterURL(poster_path)} className="card-img" alt={name} />
         <div className="card-img-overlay">
-          <h5 className="card-title">{name}</h5>
+          {/* <h5 className="card-title">{name}</h5> */}
           
           
         </div>

@@ -19,6 +19,7 @@
       display: flex;
       gap: 0.5rem;
       margin-top: .8rem;
+      justify-content: space-between;
       a {
         color: $text-color;
         text-decoration: none;
@@ -51,5 +52,11 @@
         color: $text-color;
       }
     }
+  }
+}
+
+@media  (max-width:815px){
+  .search-bar{
+    width: 100%;
   }
 }

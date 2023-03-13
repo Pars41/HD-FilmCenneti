@@ -27,10 +27,10 @@ const Header = () => {
             backgroundColor: isActive ? "#326884" : "",
           })}>En İyiler</NavLink>
             </li>
-            <li>
-              <NavLink to="/listeler" style={({ isActive }) => ({
+            <li >
+              <NavLink className="lists" to="/listeler" style={({ isActive }) => ({
             backgroundColor: isActive ? "#326884" : "",
-          })}>Listeler</NavLink>
+          })}>Listeler<span className="absolute">Yeni</span></NavLink>
             </li>
             <li>
               <NavLink to="/seriler" style={({ isActive }) => ({
