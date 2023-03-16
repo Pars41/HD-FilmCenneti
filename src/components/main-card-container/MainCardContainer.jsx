@@ -103,7 +103,7 @@ const MainCardContainer = () => {
       <div className="main-content">
         <div className="main-content_left">
           <h4>Yeni Filmler</h4>
-          {movies.slice(0,18).map((item,i)=>{
+          {movies.map((item,i)=>{
             return(
 
               <BigCard key={i} item={item}/>

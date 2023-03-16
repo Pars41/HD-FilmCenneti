@@ -32,10 +32,10 @@ const FilmTurleri = () => {
         <Link to="#">Psikolojik Filmler</Link>
         <Link to="#">Romantik Filmler </Link>
         <Link to="#">Savaş Filmleri </Link>
-        <Link to="#">Suç Filmleri</Link>
+        {/* <Link to="#">Suç Filmleri</Link>
         <Link to="#">Tarih Filmleri</Link>
         <Link to="#">Western Filmler</Link>
-        <Link to="#">Yerli Filmler</Link>
+        <Link to="#">Yerli Filmler</Link> */}
       </ul>
     </div>
   );

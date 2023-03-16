@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="nav-bar">
       <div className="middle">
-        <ul>
+        <ul className="type">
           <Link>Türkçe Dublaj</Link>
           <Link>Türkçe Altyazılı</Link>
           <Link>DUAL</Link>

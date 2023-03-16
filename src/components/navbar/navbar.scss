@@ -15,7 +15,7 @@
     align-items: center;
     padding-bottom: 0;
     height: fit-content;
-    ul {
+    ul.type {
       display: flex;
       gap: 0.5rem;
       margin-top: .8rem;
@@ -29,7 +29,7 @@
       }
     }
     .search-bar {
-      width: 25%;
+      width: fit-content;
       background-color: $primary-color;
       padding: 0.3rem;
       margin: 0 1rem;
@@ -55,8 +55,13 @@
   }
 }
 
-@media  (max-width:815px){
+@media  (max-width:1050px){
   .search-bar{
     width: 100%;
+  }
+}
+@media  (max-width:685px){
+  ul.type{
+    display: none;
   }
 }

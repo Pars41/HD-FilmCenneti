@@ -2,7 +2,7 @@
 
 .main-card-container {
   background-color: $secondary-color;
-  width: 70%;
+  width: 73%;
   margin: 0 auto;
   margin-top: 7.6rem;
   border-radius: 0.5rem;
@@ -76,5 +76,12 @@
         padding: 1rem;
       }
     }
+  }
+}
+
+@media  (max-width:1430px){
+  
+  .main-card-container{
+    width: 100%;
   }
 }
