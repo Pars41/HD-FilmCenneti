@@ -1,6 +1,5 @@
 import "./smallCard.scss";
 const SmallCard = ({ item }) => {
-  console.log(item);
   const { name, title, backdrop_path } = item;
   const getposterURL = (backdrop_path) => {
     return `https://www.themoviedb.org/t/p/w300_and_h450_bestv2${backdrop_path}`;

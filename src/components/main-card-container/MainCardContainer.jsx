@@ -93,8 +93,8 @@ const MainCardContainer = () => {
                   <div className="row">
                     {movies.map((item, i) => {
                       return (
-                        <SwiperSlide>
-                          <CarouselCard key={i} item={item} />
+                        <SwiperSlide key={i}>
+                          <CarouselCard  item={item} />
                         </SwiperSlide>
                       );
                     })}
