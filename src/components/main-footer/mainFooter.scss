@@ -1,30 +1,36 @@
 @import "../../scss/variables";
-.main-footer{
-    // display: inline-block;
-    width: 70%;
-    height: 8rem;
-    margin: 1rem auto;
-    background-color: $secondary-color ;
-    color: $text-color;
-    text-align: center;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    p{
-        span{
-            color: $light-color
-        }
+.main-footer {
+  // display: inline-block;
+  width: 73%;
+  height: fit-content;
+  margin: 1rem auto;
+  background-color: $secondary-color;
+  color: $text-color;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+  p {
+    span {
+      color: $light-color;
     }
-    ul{
-        padding: 1rem;
-        li{
-            list-style-type: none;
-            display: inline-block;
-            margin: 0 .3rem;
-            a{
-            text-decoration: none;
-                color: $text-color;
-            }
-        }
-    }
+  }
+  ul {
+    // padding: 1rem;
 
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 0 0.3rem;
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+}
+@media (max-width: 1430px) {
+  .main-footer {
+    width: 98%;
+  }
 }

@@ -12,7 +12,7 @@ const Filtreler = () => {
         </span>
         Filtreler
       </h4>
-      <ul>
+      <ul className="filters">
         <Link to="#">Türkçe Dublaj</Link>
         <Link to="#">Türkçe Altyazılı </Link>
         <Link to="#">Yabancı Filmler</Link>

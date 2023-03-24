@@ -1,27 +1,35 @@
 @import "../../scss/variables";
-.yillar{
-    h4{
-        margin-top: 1rem;
-    }
-    ul{
-        padding: 0;
+.yillar {
+  h4 {
+    margin-top: 1rem;
+  }
+  ul {
+    padding: 0;
 
-        display: flex;
-        flex-wrap: wrap;
-        a{
-            width: 22.5%;
-            text-decoration: none;
-            color: $primary-color;
-            margin: .3rem .2rem .3rem;
-            padding: .1rem .3rem;
-            font-size: .95rem;
-            background-color:#ebf1f4;
-            text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a {
+      //   width: 22.5%;
+      text-decoration: none;
+      color: $primary-color;
+      margin: 0.3rem 0.2rem 0.3rem;
+      padding: 0.1rem 0.3rem;
+      font-size: 0.95rem;
+      background-color: $light-back;
+      text-align: center;
+      border-radius: .3rem;
 
-            &:hover{
-                background-color:white;
-                border-radius: .5rem;
-            }
-        }
+      &:hover {
+        background-color: white;
+        border-radius: 0.5rem;
+      }
     }
+  }
 }
+
+// @media only screen and (max-width: 992px) {
+//   .yillar ul {
+//     padding: 0 3rem;
+//   }
+// }

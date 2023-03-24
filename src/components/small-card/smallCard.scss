@@ -1,17 +1,16 @@
-.small-card{
-    height: fit-content;
-    background-color: #EBF1F4;
-    border: 0;
-    padding: .3rem;
-    img{
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        margin-left: .5rem;
-        object-fit: cover;
-    }
-    h5{
-        margin: 0;
-        font-size: .9rem;
-    }
+.small-card {
+  height: fit-content;
+  background-color: #ebf1f4;
+  border: 0;
+  padding: 0.3rem;
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h5 {
+    margin: 0;
+    font-size: 0.9rem;
+  }
 }

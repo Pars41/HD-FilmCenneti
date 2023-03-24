@@ -8,7 +8,6 @@ import Seriler from './pages/Seriler';
 import Tercihler from './pages/Tercihler';
 import Iletişim from './pages/Iletişim';
 import Turler from './pages/Turler';  
-import Giriş from './pages/Giriş';
 
 function App() {
   return (
@@ -22,8 +21,6 @@ function App() {
       <Route path='/turler' element={<Turler/>}/>
       <Route path='/tercihler' element={<Tercihler/>}/>
       <Route path='/iletişim' element={<Iletişim/>}/>
-      {/* <Route path='#' element={<Giriş/>}/> */}
-
     </Routes>
     </>
   );

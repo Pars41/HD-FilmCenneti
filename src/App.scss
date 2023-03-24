@@ -1,28 +1,8 @@
 @import "./scss/reset", "./scss/variables", "./scss/mixins";
 
-body{
-  background-color: $primary-color;
-  &::-webkit-scrollbar{
+body {
+  background-color: $background;
+  &::-webkit-scrollbar {
     display: none;
-}
-}
-.fi-main {
-  width: 100vw;
-  height:fit-content;
-  background-color: $primary-color;
-  background-image: url("./assets/adv - Kopya.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  
-}
-@media  (max-width:1430px){
-  .fi-main{
-    background-image: none;
   }
-  
 }

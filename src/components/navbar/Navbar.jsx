@@ -4,7 +4,7 @@ import { BsSearch } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="nav-bar">
-      <div className="middle">
+      <div className="nav-middle">
         <ul className="type">
           <Link>Türkçe Dublaj</Link>
           <Link>Türkçe Altyazılı</Link>
@@ -15,8 +15,9 @@ const Navbar = () => {
         </ul>
         <div className="search-bar">
           <input placeholder="Film Adı veya IMDB Linki Girin" type="text" />
-          <span><BsSearch /></span>
-          
+          <span>
+            <BsSearch />
+          </span>
         </div>
       </div>
     </div>

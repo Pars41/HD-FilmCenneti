@@ -1,0 +1,68 @@
+.main-card {
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: .5rem !important;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+    opacity: 1;
+    border-radius: 0.5rem !important;
+  }
+  img {
+    border-radius: 0.5rem !important;
+  }
+  p.average {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    font-weight: 900;
+    padding: 0;
+    z-index: 3;
+  }
+  p.title {
+    position: absolute;
+    bottom: 1rem;
+    font-weight: 500 !important;
+    padding: 0;
+    z-index: 3;
+    padding: 0 0.5rem 0;
+    text-shadow: 3px 3px 5px black;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  p.date {
+    position: absolute;
+    bottom: -10px;
+    left: 8px;
+    font-weight: 900;
+    padding: 0;
+    z-index: 3;
+    // padding: 0.5rem;
+    padding-bottom: 0;
+    text-shadow: 3px 3px 3px black;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  p.average{
+    font-size: 1.5rem;
+
+  }
+  p.title{
+    font-size: 1.5rem !important;
+    bottom: 1.7rem !important;
+    line-height: 1.5rem !important;
+
+  }
+  p.date{
+    font-size: 1.5rem !important;
+  }
+}

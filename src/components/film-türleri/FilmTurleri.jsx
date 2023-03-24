@@ -11,7 +11,7 @@ const FilmTurleri = () => {
         </span>
         Film Türleri
       </h4>
-      <ul>
+      <ul className="types">
         <Link to="#">Aile Filmleri</Link>
         <Link to="#">Animasyon Filmleri </Link>
         <Link to="#">Bilim Kurgu Filmleri</Link>

@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
 import { BiCameraMovie } from "react-icons/bi";
-import "./yillar.scss"
+import "./yillar.scss";
 
 const Yillar = () => {
   return (
@@ -12,7 +11,7 @@ const Yillar = () => {
         </span>
         Yıllar
       </h4>
-      <ul>
+      <ul className="px-lg-10">
         <Link to="#">2023</Link>
         <Link to="#">2022</Link>
         <Link to="#">2021</Link>
@@ -33,10 +32,9 @@ const Yillar = () => {
         <Link to="#">2006</Link>
         <Link to="#">2005</Link>
         <Link to="#">2004</Link>
-        
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Yillar
+export default Yillar;

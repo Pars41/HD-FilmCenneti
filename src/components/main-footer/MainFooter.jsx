@@ -13,7 +13,7 @@ const MainFooter = () => {
             <li><a href="">Türkçe Dublaj Film İzle</a></li>-
             <li><a href="">Türkçe Altyazılı Film İzle</a></li>
         </ul>
-        <p><span>© 2005-2022 FullHDFilmizlesene.pw</span>  |  İletişim</p>
+        <p><span>© 2005-2023 HD|Film Cenneti</span>  |  İletişim</p>
     </div>
   )
 }

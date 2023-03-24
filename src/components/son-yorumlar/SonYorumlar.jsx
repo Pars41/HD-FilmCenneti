@@ -11,7 +11,6 @@ const SonYorumlar = () => {
       try {
         const { data } = await axios(url);
         setComment(data);
-        console.log(comment)
       } catch (error) {
       }
     };

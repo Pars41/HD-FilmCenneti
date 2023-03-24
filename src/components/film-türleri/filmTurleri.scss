@@ -4,18 +4,21 @@
     h4{
         margin-top: 1rem;
     }
-    ul{
+    ul.types{
         padding: 0;
 
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         a{
-            width: 50%;
+            width: 43%;
             text-decoration: none;
             color: $primary-color;
-            margin-top: .5rem;
-            padding: 0 .3rem;
+            margin: .5rem;
+            padding: .3rem;
             font-size: .95rem;
+            background-color: $light-back;
+      border-radius: .3rem;
             &:hover{
                 background-color:#ebf1f4;
                 border-radius: .5rem;
@@ -23,3 +26,8 @@
         }
     }
 }
+@media (max-width: 992px) {
+    ul.types a{
+        text-align: center;
+    }
+  }

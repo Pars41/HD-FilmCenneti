@@ -3,7 +3,7 @@ import { BiCameraMovie } from "react-icons/bi";
 
 const FilmRobotu = () => {
   return (
-    <div className="film-robotu">
+    <div className="film-robotu col-12">
         <h4>
             <span>
               <BiCameraMovie />
