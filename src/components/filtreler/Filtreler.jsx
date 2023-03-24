@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { BiCameraMovie } from "react-icons/bi";
 import "./filtreler.scss";
 
-
 const Filtreler = () => {
   return (
     <div className="filtreler">
@@ -23,10 +22,9 @@ const Filtreler = () => {
         <Link to="#">2022 Filmleri</Link>
         <Link to="#">2021 Filmleri</Link>
         <Link to="#">IMDB Puanı</Link>
-        
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Filtreler
+export default Filtreler;

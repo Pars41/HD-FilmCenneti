@@ -20,7 +20,6 @@ import "swiper/css/navigation";
 const MainCardContainer = () => {
   const API_KEY = "0a06593e3ed888b80a4b7c4da86b6bb9";
   const BASE_URL = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`;
-  // const url = `${process.env.API_URL}=${process.env.API_KEY}`
   const [movies, setMovies] = useState([]);
   const [trendMovies, setTrendMovies] = useState([]);
   const getMovie = async () => {
@@ -31,7 +30,9 @@ const MainCardContainer = () => {
   };
   const getTrendMovie = async () => {
     try {
-      const { data } = await axios(`https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}`);
+      const { data } = await axios(
+        `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}`
+      );
       setTrendMovies(data.results);
     } catch (error) {}
   };
@@ -58,7 +59,7 @@ const MainCardContainer = () => {
             <div>
               <h3 className="mb-3">Editörün Seçimi </h3>
             </div>
-            
+
             <div className="col-12">
               <div className="slider">
                 <Swiper
@@ -100,13 +101,11 @@ const MainCardContainer = () => {
                   </div>
                 </Swiper>
               </div>
-              
             </div>
           </div>
         </div>
       </section>
 
-      {/* <h4 className="p-4">Yeni Filmler</h4> */}
       <div className="main-content d-flex">
         <div className="main-content_left  col-md-12 col-lg-8 col-xl-8 d-flex justify-content-center flex-wrap gap-5 pt-5">
           {trendMovies.map((item, i) => {

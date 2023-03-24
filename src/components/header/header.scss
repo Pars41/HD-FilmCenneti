@@ -13,7 +13,6 @@
   width: 100vw;
   text-shadow: 0.5px 0.5px 5px grey;
   z-index: 10;
-  // min-width: 682px;
 
   .middle {
     margin: 0 auto;
@@ -47,15 +46,13 @@
   span {
     color: $light-color;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     color: $secondary-color;
     background-color: $secondary-color;
   }
   .nav-right {
-   
     ul {
-      margin:auto;
-      // margin-top: 0.7rem;
+      margin: auto;
       height: fit-content;
       padding: 0.5rem 1rem;
       display: flex;
@@ -107,49 +104,36 @@
     flex-direction: column;
     width: 100% !important;
   }
-  .header-fixed{
-    padding-bottom: .5rem;
+  .header-fixed {
+    padding-bottom: 0.5rem;
   }
-  // a.lists span.absolute,
-  // span.logo {
-  //   display: none;
-  // }
-  // a {
-  //   word-wrap: none;
-  // }
+
   ul {
     gap: 0;
   }
 }
-// @media (max-width: 1050px) {
-//   .nav-right {
-//     display: none;
-//   }
-// }
+
 @media (max-width: 767px) {
-  .middle{
+  .middle {
     flex-direction: row;
     justify-content: space-around;
-
   }
-  .nav-right ul{
+  .nav-right ul {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 @media (max-width: 333px) {
-  .middle{
+  .middle {
     flex-direction: column;
     justify-content: center;
-
   }
 }
-
 
 // for apple watch
 
 @media (max-width: 165px) {
-  .header-fixed{
+  .header-fixed {
     position: relative;
   }
 }

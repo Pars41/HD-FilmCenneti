@@ -1,6 +1,5 @@
 @import "../../scss/variables";
 .main-footer {
-  // display: inline-block;
   width: 73%;
   height: fit-content;
   margin: 1rem auto;
@@ -16,8 +15,6 @@
     }
   }
   ul {
-    // padding: 1rem;
-
     li {
       list-style-type: none;
       display: inline-block;

@@ -10,7 +10,6 @@
     justify-content: center;
     flex-wrap: wrap;
     a {
-      //   width: 22.5%;
       text-decoration: none;
       color: $primary-color;
       margin: 0.3rem 0.2rem 0.3rem;
@@ -18,7 +17,7 @@
       font-size: 0.95rem;
       background-color: $light-back;
       text-align: center;
-      border-radius: .3rem;
+      border-radius: 0.3rem;
 
       &:hover {
         background-color: white;
@@ -27,9 +26,3 @@
     }
   }
 }
-
-// @media only screen and (max-width: 992px) {
-//   .yillar ul {
-//     padding: 0 3rem;
-//   }
-// }

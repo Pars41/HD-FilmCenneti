@@ -2,7 +2,6 @@ import "./mainCard.scss";
 const MainCard = ({ item }) => {
   const {
     poster_path,
-    backdrop_path,
     name,
     first_air_date,
     vote_average,
@@ -15,11 +14,7 @@ const MainCard = ({ item }) => {
   return (
     <div className="mb-3 col-sm-4 col-md-3 col-lg-3 ">
       <div className="card text-bg-dark main-card">
-        <img
-          src={getposterURL(poster_path)}
-          className="card-img "
-          alt={name}
-        />
+        <img src={getposterURL(poster_path)} className="card-img " alt={name} />
         <p className="text-warning fw-bold average">
           {vote_average ? vote_average.toFixed(1) : "7.5"}
         </p>
@@ -29,9 +24,6 @@ const MainCard = ({ item }) => {
             ? first_air_date.slice(0, 4)
             : release_date.slice(0, 4)}
         </p>
-        {/* <div className="card-img-overlay">
-          <h5 className="card-title">{name}</h5>
-        </div> */}
       </div>
     </div>
   );

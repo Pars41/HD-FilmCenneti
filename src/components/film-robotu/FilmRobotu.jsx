@@ -1,17 +1,16 @@
-import "./filmRobotu.scss"
+import "./filmRobotu.scss";
 import { BiCameraMovie } from "react-icons/bi";
 
 const FilmRobotu = () => {
   return (
     <div className="film-robotu col-12">
-        <h4>
-            <span>
-              <BiCameraMovie />
-              
-            </span>
-            Film Robotu
-          </h4>
-          <p>Seçeneklerin hepsini seçmenize gerek yoktur!</p>
+      <h4>
+        <span>
+          <BiCameraMovie />
+        </span>
+        Film Robotu
+      </h4>
+      <p>Seçeneklerin hepsini seçmenize gerek yoktur!</p>
       <div className="dropdown">
         <button
           className="btn  dropdown-toggle"
@@ -96,7 +95,7 @@ const FilmRobotu = () => {
           </li>
           <li>
             <a className="dropdown-item" href="#">
-             Gerilim Filmleri
+              Gerilim Filmleri
             </a>
           </li>
           <li>
@@ -194,16 +193,56 @@ const FilmRobotu = () => {
           <li>
             <ul className="dropdown-item" href="#">
               Yıl Aralığı
-              <li><a className="dropdown-item" href="#">2022-2021</a></li>
-              <li><a className="dropdown-item" href="#">2020-2019</a></li>
-              <li><a className="dropdown-item" href="#">2015-2013</a></li>
-              <li><a className="dropdown-item" href="#">2012-2010</a></li>
-              <li><a className="dropdown-item" href="#">2009-2005</a></li>
-              <li><a className="dropdown-item" href="#">2004-2000</a></li>
-              <li><a className="dropdown-item" href="#">1999-1995</a></li>
-              <li><a className="dropdown-item" href="#">1994-1990</a></li>
-              <li><a className="dropdown-item" href="#">1989-1980</a></li>
-              <li><a className="dropdown-item" href="#">1979-1920</a></li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2022-2021
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2020-2019
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2015-2013
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2012-2010
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2009-2005
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  2004-2000
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  1999-1995
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  1994-1990
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  1989-1980
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  1979-1920
+                </a>
+              </li>
             </ul>
           </li>
           <li>
@@ -212,7 +251,6 @@ const FilmRobotu = () => {
             </a>
             <input type="number" />
           </li>
-          
         </ul>
       </div>
       <div className="dropdown">
