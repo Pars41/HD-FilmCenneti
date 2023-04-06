@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project-006 : Sass Portfolio with React Router (RP-06)
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+Project aims to create a Sass Portfolio with Router.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Skeleton
 
-### `yarn test`
+```
+006 - Sass Portfolio with React Router (folder)
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│   ├── App.js
+│   ├── App.scss
+│   ├── assets
+│   │   └── img
+│   ├── components
+│   │   ├── Error
+│   │   │   ├── NotFound.css
+│   │   │   └── NotFound.jsx
+│   │   ├── Footer
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.scss
+│   │   ├── Navbar
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Navbar.scss
+│   │   └── ProjectCards.jsx
+│   ├── helper
+│   │   └── imageData.js
+│   ├── index.css
+│   ├── index.js
+│   ├── pages
+│   │   ├── about
+│   │   │   ├── About.jsx
+│   │   │   └── About.scss
+│   │   ├── contact
+│   │   │   ├── Contact.jsx
+│   │   │   └── Contact.scss
+│   │   ├── home
+│   │   │   ├── Home.jsx
+│   │   │   └── Home.scss
+│   │   └── projects
+│   │       ├── Projects.jsx
+│   │       └── Projects.scss
+│   ├── router
+│   │   └── router.js
+│   └── scss
+│       ├── _mixins.scss
+│       ├── _reset.scss
+│       └── _variables.scss
+├── package.json
+└── yarn.lock
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Expected Outcome
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build a Sass Portfolio with using ReactJS, react-router and sass.
 
-### `yarn eject`
+### At the end of the project, following topics are to be covered;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- JS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ReactJS
 
-## Learn More
+### At the end of the project, students will be able to;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Improve coding skills within HTML & CSS & JS & ReactJS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-### Code Splitting
+## Steps to Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Step 1: Create React App using `npx create-react-app sass-portfolio-router`.
 
-### Analyzing the Bundle Size
+- Step 2: Build Sass Portfolio with using ReactJS, react-router and sass..
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Step 3: Push your application into your own public repo on Github.
 
-### Making a Progressive Web App
+- Step 4: Add project gif to your project and README.md file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Notes
 
-### Advanced Configuration
+- You can add additional functionalities and design to your app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Demo
 
-### Deployment
+<a href="https://react-router-sass-project.vercel.app/">Sass Portfolio with React Router</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
