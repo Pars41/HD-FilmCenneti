@@ -1,10 +1,10 @@
 
 
-# Project-006 : Sass Portfolio with React Router (RP-06)
+# Movie App with React
 
 ## Description
 
-Project aims to create a Sass Portfolio with Router.
+Project aims to create a Movie App.
 
 
 ## Project Skeleton
@@ -18,39 +18,26 @@ SOLUTION
 │     └── index.html
 ├── src
 │   ├── App.js
-│   ├── App.scss
-│   ├── assets
-│   │   └── img
-│   ├── components
-│   │   ├── Error
-│   │   │   ├── NotFound.css
-│   │   │   └── NotFound.jsx
-│   │   ├── Footer
-│   │   │   ├── Footer.jsx
-│   │   │   └── Footer.scss
-│   │   ├── Navbar
-│   │   │   ├── Navbar.jsx
-│   │   │   └── Navbar.scss
-│   │   └── ProjectCards.jsx
-│   ├── helper
-│   │   └── imageData.js
-│   ├── index.css
 │   ├── index.js
+│   ├── App.scss
+│   ├── index.css   
+│   ├── components
+│   │   ├── header
+│   │   │   ├── Header.scss
+│   │   │   └── Header.jsx
+│   │   ├──carousel-card
+│   │   │   ├── CarouselCard.scss
+│   │   │   └── CarouselCard.jsx
+│   │   ├── main-card
+│   │   │   ├── MainCard.scss
+│   │   │   └── MainCard.jsx
+│   │   ├── ...
+│   │   └── ...
 │   ├── pages
-│   │   ├── about
-│   │   │   ├── About.jsx
-│   │   │   └── About.scss
-│   │   ├── contact
-│   │   │   ├── Contact.jsx
-│   │   │   └── Contact.scss
-│   │   ├── home
-│   │   │   ├── Home.jsx
-│   │   │   └── Home.scss
-│   │   └── projects
-│   │       ├── Projects.jsx
-│   │       └── Projects.scss
-│   ├── router
-│   │   └── router.js
+│   │   ├── Filmİzle.jsx   
+│   │   ├── Enİyiler.jsx
+│   │   ├── Giriş.jsx
+│   │   └── ...
 │   └── scss
 │       ├── _mixins.scss
 │       ├── _reset.scss
@@ -61,44 +48,19 @@ SOLUTION
 
 ## Expected Outcome
 
+![film cenneti](https://user-images.githubusercontent.com/118731253/232813290-a2200a7b-8879-4690-b07f-421a6b8526d6.gif)
 
 
-## Objective
 
-Build a Sass Portfolio with using ReactJS, react-router and sass.
-
-### At the end of the project, following topics are to be covered;
 
 - HTML
 
 - CSS
 
+- BOOTSTRAP
+
 - JS
 
 - ReactJS
 
-### At the end of the project, students will be able to;
 
-- Improve coding skills within HTML & CSS & JS & ReactJS.
-
-- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `npx create-react-app sass-portfolio-router`.
-
-- Step 2: Build Sass Portfolio with using ReactJS, react-router and sass..
-
-- Step 3: Push your application into your own public repo on Github.
-
-- Step 4: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities and design to your app.
-
-## Demo
-
-<a href="https://react-router-sass-project.vercel.app/">Sass Portfolio with React Router</a>
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
