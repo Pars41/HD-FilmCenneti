@@ -6,6 +6,10 @@
 
 Project aims to create a Movie App.
 
+## Expected Outcome
+
+![film cenneti](https://user-images.githubusercontent.com/118731253/232813290-a2200a7b-8879-4690-b07f-421a6b8526d6.gif)
+
 
 ## Project Skeleton
 
@@ -45,12 +49,6 @@ SOLUTION
 ├── package.json
 └── yarn.lock
 ```
-
-## Expected Outcome
-
-![film cenneti](https://user-images.githubusercontent.com/118731253/232813290-a2200a7b-8879-4690-b07f-421a6b8526d6.gif)
-
-
 
 
 - HTML
